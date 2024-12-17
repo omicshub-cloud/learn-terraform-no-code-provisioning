@@ -5,8 +5,6 @@ provider "aws" {
   region = "us-west-2"
 }
 
-provider "aws" {}
-
 data "aws_availability_zones" "available" {}
 
 resource "random_pet" "random" {}
